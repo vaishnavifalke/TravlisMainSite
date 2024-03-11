@@ -1,0 +1,306 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 5119px;
+    height: 3566px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: absolute;
+    width: 5119px;
+    height: 3566px;
+    top: 0;
+    left: 0;
+    background: #192953;
+    z-index: 2;
+  }
+  .flex-row-db {
+    position: relative;
+    width: 5119px;
+    height: 1687px;
+    margin: 0 0 0 0;
+    z-index: 7;
+  }
+  .image {
+    position: absolute;
+    width: 2505px;
+    height: 1687px;
+    top: 0;
+    left: 0;
+    // background: url(./assets/images/0d7c6480336ce124650017f105ea7119841ad602.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 3;
+  }
+  .bungee-jumping-ontario {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1506px;
+    height: 242px;
+    top: -354px;
+    left: 527px;
+    color: #ffffff;
+    font-family: Inter, var(--default-font-family);
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 121.023px;
+    text-align: left;
+    z-index: 8;
+  }
+  .image-1 {
+    position: absolute;
+    width: 1165px;
+    height: 785px;
+    top: 0;
+    left: 2505px;
+    // background: url(./assets/images/a71b2bcb6180f66920a29852a2464af86d9080c7.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 4;
+  }
+  .image-2 {
+    position: absolute;
+    width: 1449px;
+    height: 785px;
+    top: 0;
+    left: 3670px;
+    // background: url(./assets/images/ca0f2fd55b2f67a9e5367a9cb63c53a172cde081.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 5;
+  }
+  .image-3 {
+    position: absolute;
+    width: 1412px;
+    height: 902px;
+    top: 785px;
+    left: 2505px;
+    // background: url(./assets/images/1923fc1053b7384a67230b75ed7eeff3ac6ad762.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 6;
+  }
+  .image-4 {
+    position: absolute;
+    width: 1202px;
+    height: 902px;
+    top: 785px;
+    left: 3917px;
+    // background: url(./assets/images/2fe2859d0129aae04e091b2b0c86ef3fe5f4e5b0.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  .Highlights {
+    position: relative;
+    width: 3928px;
+    height: 1699px;
+    margin: 108px 0 0 480px;
+    z-index: 26;
+  }
+  .rectangle-5 {
+    position: absolute;
+    width: 2333px;
+    height: 976px;
+    top: 0;
+    left: 0;
+    font-size: 0px;
+    background: #ffffff;
+    z-index: 10;
+    margin-top: 1683px
+  }
+  .bungee-jumping-highlights {
+    display: block;
+    position: relative;
+    height: 61px;
+    margin: 113px 0 0 49px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60.511px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+  }
+  .bungee-jumping-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 2077px;
+    height: 122px;
+    margin: 69px 0 0 64px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.511px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 12;
+    overflow: hidden;
+  }
+  .supervised-instructors {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 2144px;
+    height: 122px;
+    margin: 30px 0 0 64px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.511px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 13;
+    overflow: hidden;
+  }
+  .capture-memories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 2079px;
+    height: 122px;
+    margin: 30px 0 0 56px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.511px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 14;
+    overflow: hidden;
+  }
+  .safety-standards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    width: 2212px;
+    height: 122px;
+    margin: 30px 0 0 49px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60.511px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 15;
+    overflow: hidden;
+  }
+  .rectangle-6 {
+    position: absolute;
+    width: 1476px;
+    height: 1729px;
+    top: 0;
+    left: 2452px;
+    font-size: 0px;
+    background: #ffffff;
+    z-index: 26;
+    margin-top: 1679px;
+  }
+  .booking-details {
+    display: block;
+    position: relative;
+    height: 83.622px;
+    margin: 82.639px 0 0 80px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 83.622px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 30;
+  }
+  .price-tag {
+    display: block;
+    position: relative;
+    height: 47.222px;
+    margin: 85.589px 0 0 113px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47.222px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+  }
+  .cad-199 {
+    display: block;
+    position: relative;
+    height: 121px;
+    margin: 27.929px 0 0 119px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 84.716px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 32;
+  }
+  .date-tag {
+    display: block;
+    position: relative;
+    height: 47.222px;
+    margin: 43.893px 0 0 113px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47.222px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 33;
+  }
+  .date-08-11-2023 {
+    display: block;
+    position: relative;
+    height: 83.622px;
+    margin: 47.224px 0 0 127px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 83.622px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .rectangle-a{
+   margin-bottom: 20px; 
+  }

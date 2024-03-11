@@ -1,0 +1,367 @@
+
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 2390px;
+    height: 1615px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .rectangle {
+    position: relative;
+    width: 2390px;
+    height: 1578px;
+    margin: 37px 0 0 0;
+    background: #6e989b;
+    z-index: 1;
+    overflow: visible auto;
+  }
+  .backgroundimage {
+    position: relative;
+    width: 2390px;
+    height: 653px;
+    margin: 0 0 0 0;
+    // background: url(./assets/images/f1a1ae8f73e9a50d285083091b8ccfdf575c5062.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 5;
+   
+  }
+  .flex-row-db {
+    position: relative;
+    width: 1924px;
+    height: 288px;
+    margin: 52px 0 0 57px;
+    z-index: 9;
+  }
+  .goa-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 889px;
+    height: 288px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 6;
+  }
+  .cavelossim-beach {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 32px;
+    top: 101px;
+    left: 1138px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    z-index: 9;
+  }
+  .flex-row-be {
+    position: relative;
+    width: 2293px;
+    height: 196px;
+    margin: -2px 0 0 57px;
+    z-index: 12;
+  }
+  .our-final-evening {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 36px;
+    top: 0;
+    left: 1138px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    z-index: 10;
+  }
+  .image {
+    position: absolute;
+    width: 285px;
+    height: 165px;
+    top: 18px;
+    left: 2008px;
+    // background: url(./assets/images/d9fe394ad76353d6ecd62b1d9b0e8a4ad66976cc.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 12;
+  }
+  .image-2 {
+    position: absolute;
+    width: 242px;
+    height: 149px;
+    top: 36px;
+    left: 753px;
+    // background: url(./assets/images/05f8fd56a45db214e737daa7669d509795349ce8.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  .resort-height-limit {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 753px;
+    height: 142px;
+    top: 47px;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 8;
+  }
+  .blogimage1{
+    margin-left: 755px;
+    margin-bottom: -190px;
+  }
+  .blogimage2{
+    margin-left: 941px;
+    margin-bottom: -215px;
+  }
+  .blogimage3{
+    margin-left: 4px;
+    margin-bottom: -167px;
+  }
+  .paper-lanterns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 844px;
+    height: 144px;
+    top: 52px;
+    left: 1138px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 11;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 2263px;
+    height: 223px;
+    margin: 113px 0 0 57px;
+    z-index: 14;
+  }
+  .image-3 {
+    position: absolute;
+    width: 224px;
+    height: 164px;
+    top: 0;
+    left: 0;
+    // background: url(./assets/images/5bdb250b4fa08b3c69fb1bd638a43396c11c062c.png)
+    //   no-repeat center;
+    background-size: cover;
+    z-index: 14;
+  }
+  .about-us-start-here {
+    position: absolute;
+    width: 218px;
+    height: 216px;
+    top: 0;
+    left: 1138px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 2;
+  }
+  .about {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .nbsp {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .about-us-start-here-work-with-us {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .regroup {
+    position: absolute;
+    width: 723px;
+    height: 223px;
+    top: 0;
+    left: 1540px;
+    z-index: 4;
+  }
+  .explore-destinations-photography {
+    position: absolute;
+    width: 331px;
+    height: 216px;
+    top: 7px;
+    left: 0;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 3;
+  }
+  .explore {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .destinations-photography-sustainable {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .adventure-travel {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .resources-adventure-tours {
+    position: absolute;
+    width: 270px;
+    height: 216px;
+    top: 7px;
+    left: 453px;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 4;
+  }
+  .resources {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .empty {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .adventure-tours {
+    position: relative;
+    color: #fdfdfd;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+  }
+  .reach-falls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 801px;
+    height: 180px;
+    top: 7px;
+    left: 275px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.307px;
+    text-align: left;
+    letter-spacing: 2px;
+    z-index: 13;
+  }
+  
